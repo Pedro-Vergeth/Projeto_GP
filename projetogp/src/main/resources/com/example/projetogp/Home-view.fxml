@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetogp.controllers.HomeController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="700.0" strokeType="INSIDE" width="200.0">
+         <stroke>
+            <RadialGradient centerX="0.5" centerY="0.7985781990521327" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </stroke>
+         <fill>
+            <LinearGradient endX="0.3886255924170616" endY="0.36018957345971564" startX="0.4028436018957346" startY="0.7582938388625593">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.01568627543747425" green="0.1764705926179886" blue="0.3843137323856354" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="48.0" layoutX="197.0" strokeType="INSIDE" width="903.0">
+         <stroke>
+            <RadialGradient centerX="0.5" centerY="0.7985781990521327" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </stroke>
+         <fill>
+            <LinearGradient endX="0.3886255924170616" endY="0.36018957345971564" startX="0.6587677725118484" startY="0.3554502369668247">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.01568627543747425" green="0.1764705926179886" blue="0.3843137323856354" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text fx:id="Testetexto" fill="WHITE" layoutX="574.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bem Vindo">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="141.0" layoutX="549.0" layoutY="82.0" strokeType="INSIDE" width="200.0">
+         <stroke>
+            <RadialGradient centerX="0.5" centerY="0.7985781990521327" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </stroke>
+         <fill>
+            <LinearGradient endX="0.3886255924170616" endY="0.36018957345971564" startX="0.4028436018957346" startY="0.7582938388625593">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.01568627543747425" green="0.1764705926179886" blue="0.3843137323856354" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text fill="WHITE" layoutX="560.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total de solicitações">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="totalSolHome" layoutX="623.0" layoutY="170.0" prefHeight="17.0" prefWidth="53.0" text="Label" textFill="WHITE" />
+      <Button layoutY="118.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Home" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="solicitacaoButton" layoutX="-9.0" layoutY="189.0" mnemonicParsing="false" onAction="#telaSolicitacao" prefHeight="69.0" prefWidth="207.0" style="-fx-background-color: transparent;" text="Solicitações" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="representanteButton" layoutX="-12.0" layoutY="267.0" mnemonicParsing="false" onAction="#telaRepresentante" prefHeight="69.0" prefWidth="224.0" style="-fx-background-color: transparent;" text="Representantes" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="relatorioButton" layoutX="-17.0" layoutY="336.0" mnemonicParsing="false" onAction="#telaRelatorio" prefHeight="69.0" prefWidth="224.0" style="-fx-background-color: transparent;" text="Relatório" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Label fx:id="nomeHome" layoutX="4.0" layoutY="94.0" prefHeight="20.0" prefWidth="193.0" style="-fx-background-color: transparent;" text="Label" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

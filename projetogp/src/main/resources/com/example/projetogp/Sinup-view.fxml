@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetogp.controllers.UserController">
+   <children>
+      <Text layoutX="43.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome completo" />
+      <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data de nascimento" />
+      <TextField fx:id="textFieldNome" layoutX="41.0" layoutY="31.0" prefHeight="16.0" prefWidth="96.0" />
+      <Button layoutX="195.0" layoutY="338.0" mnemonicParsing="false" onAction="#onSaveAction" text="Cadastrar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Text layoutX="352.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cidade natal" />
+      <TextField fx:id="textFieldDatan" layoutX="198.0" layoutY="31.0" prefHeight="16.0" prefWidth="96.0" />
+      <TextField fx:id="textFieldCidaden" layoutX="352.0" layoutY="31.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="43.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nacionalidade" />
+      <TextField fx:id="textFieldNacionalidade" layoutX="43.0" layoutY="87.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="198.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField fx:id="textFieldRG" layoutX="352.0" layoutY="87.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="352.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RG" />
+      <TextField fx:id="textFieldCPF" layoutX="43.0" layoutY="138.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="43.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPF" />
+      <Text layoutX="208.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titulo de eleitor" />
+      <Text layoutX="208.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número" />
+      <TextField fx:id="textFieldTENumero" layoutX="202.0" layoutY="109.0" prefHeight="16.0" prefWidth="96.0" />
+      <TextField fx:id="textFieldTEMunicipio" layoutX="203.0" layoutY="156.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="203.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Municipio" />
+      <TextField fx:id="textFieldTEDataEmissao" layoutX="202.0" layoutY="207.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="204.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data de emissão" />
+      <Text layoutX="360.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Endereço" />
+      <TextField fx:id="textFieldEnderecoCEP" layoutX="353.0" layoutY="151.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="350.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CEP" />
+      <TextField fx:id="textFieldEnderecoRua" layoutX="353.0" layoutY="194.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="357.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rua" />
+      <TextField fx:id="textFieldEnderecoBairro" layoutX="353.0" layoutY="242.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="351.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bairro" />
+      <TextField fx:id="textFieldEnderecoCidade" layoutX="353.0" layoutY="288.0" prefHeight="16.0" prefWidth="96.0" />
+      <TextField fx:id="textFieldEnderecoEstado" layoutX="352.0" layoutY="338.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="351.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cidade" />
+      <Text layoutX="354.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Estado" />
+      <TextField fx:id="textFieldNE" layoutX="43.0" layoutY="182.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="43.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nivel escolar" />
+      <TextField fx:id="textFieldPP" layoutX="43.0" layoutY="242.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="43.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Partido politico" />
+      <TextField fx:id="textFieldNP" layoutX="43.0" layoutY="288.0" prefHeight="16.0" prefWidth="96.0" />
+      <TextField fx:id="textFieldCargo" layoutX="43.0" layoutY="338.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="43.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero politico" />
+      <Text layoutX="43.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cargo" />
+      <TextField fx:id="textfiledEmail" layoutX="200.0" layoutY="255.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="202.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <TextField fx:id="textfieldPassword" layoutX="202.0" layoutY="293.0" prefHeight="16.0" prefWidth="96.0" />
+      <Text layoutX="202.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha" />
+   </children>
+</AnchorPane>
